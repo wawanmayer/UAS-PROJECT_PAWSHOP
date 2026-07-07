@@ -1,0 +1,125 @@
+body{
+
+    margin:0;
+
+    background:#F7F5F2;
+
+    font-family:'Nunito',sans-serif;
+
+}
+
+.container{
+
+    width:900px;
+
+    margin:50px auto;
+
+}
+
+h1{
+
+    color:#930500;
+
+    margin-bottom:30px;
+
+}
+
+.order-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    margin-bottom:20px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.top{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.top h3{
+
+    margin:0;
+
+    color:#930500;
+
+}
+
+.top p{
+
+    color:#888;
+
+    margin-top:5px;
+
+}
+
+.status{
+
+    background:#FFF3C4;
+
+    color:#A36A00;
+
+    padding:8px 18px;
+
+    border-radius:25px;
+
+    font-weight:bold;
+
+}
+
+.middle{
+
+    margin:20px 0;
+
+    color:#555;
+
+    line-height:1.8;
+
+}
+
+.bottom{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.bottom h2{
+
+    color:#930500;
+
+}
+
+.detail-btn{
+
+    background:#930500;
+
+    color:white;
+
+    padding:10px 22px;
+
+    border-radius:30px;
+
+    text-decoration:none;
+
+}
+
+.detail-btn:hover{
+
+    background:#770400;
+
+}

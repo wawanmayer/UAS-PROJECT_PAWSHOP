@@ -1,0 +1,436 @@
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+/* BODY */
+
+body{
+
+    background:#FFF2D3;
+
+    font-family:'Nunito', sans-serif;
+
+    min-height:100vh;
+
+    padding:60px 8%;
+}
+
+
+/* CONTAINER */
+
+.checkout-container{
+
+    display:flex;
+
+    gap:30px;
+
+    align-items:flex-start;
+}
+
+
+/* CARD */
+
+.order-section,
+.delivery-section{
+
+    background:white;
+
+    border-radius:30px;
+
+    padding:35px;
+
+    box-shadow:0 10px 30px rgba(147,5,0,0.1);
+}
+
+
+/* KIRI */
+
+.order-section{
+
+    width:55%;
+}
+
+
+/* KANAN */
+
+.delivery-section{
+
+    width:45%;
+}
+
+
+/* TITLE */
+
+.order-section h2,
+.delivery-section h2{
+
+    color:#930500;
+
+    font-size:32px;
+
+    margin-bottom:25px;
+}
+
+
+/* PRODUCT */
+
+.order-item{
+
+    background:#FFF7EA;
+
+    border-radius:20px;
+
+    padding:18px 20px;
+
+    margin-bottom:15px;
+}
+
+
+.order-item h3{
+
+    color:#930500;
+
+    margin-bottom:8px;
+
+    font-size:18px;
+}
+
+
+.order-item p{
+
+    color:#666;
+
+    margin-bottom:8px;
+}
+
+
+.order-item span{
+
+    color:#930500;
+
+    font-weight:700;
+}
+
+
+/* TOTAL */
+
+.total-box{
+
+    margin-top:25px;
+
+    padding-top:20px;
+
+    border-top:2px solid #EEE;
+}
+
+.total-box hr{
+
+    border:none;
+
+    border-top:1px solid #EEE;
+
+    margin:12px 0;
+}
+
+.total-box h3{
+
+    color:#930500;
+}
+
+
+#totalPrice{
+
+    color:#930500;
+
+    font-size:24px;
+
+    font-weight:bold;
+}
+
+
+/* FORM */
+
+.delivery-section input,
+.delivery-section textarea{
+
+    width:100%;
+
+    padding:15px;
+
+    margin-bottom:15px;
+
+    border:1px solid #DDD;
+
+    border-radius:15px;
+
+    font-family:'Nunito', sans-serif;
+
+    outline:none;
+
+    transition:0.3s;
+}
+
+
+.delivery-section input:focus,
+.delivery-section textarea:focus{
+
+    border-color:#930500;
+
+    box-shadow:0 0 8px rgba(147,5,0,0.2);
+}
+
+
+.delivery-section textarea{
+
+    height:120px;
+
+    resize:none;
+}
+
+
+/* BUTTON */
+
+#orderBtn{
+
+    width:100%;
+
+    background:#930500;
+
+    color:white;
+
+    border:none;
+
+    padding:15px;
+
+    border-radius:20px;
+
+    font-size:16px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+
+#orderBtn:hover{
+
+    background:#750400;
+
+    transform:translateY(-3px);
+}
+
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    body{
+
+        padding:30px 5%;
+    }
+
+
+    .checkout-container{
+
+        flex-direction:column;
+    }
+
+
+    .order-section,
+    .delivery-section{
+
+        width:100%;
+    }
+
+}
+
+/* INVOICE */
+#invoiceBox{
+
+    display:none;
+
+    max-width:550px;
+
+    margin:50px auto;
+
+    background:white;
+
+    border-radius:30px;
+
+    padding:45px;
+
+    box-shadow:
+        0 20px 50px rgba(0,0,0,.08);
+
+}
+
+.invoice-icon{
+
+    width:80px;
+    height:80px;
+
+    border-radius:50%;
+
+    background:#f3f8f2;
+
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+    margin:0 auto 20px;
+
+    font-size:40px;
+
+    color:#28a745;
+}
+
+#invoiceBox h2{
+
+    text-align:center;
+
+    color:#930500;
+
+    margin-bottom:8px;
+
+    font-size:34px;
+}
+
+.invoice-subtitle{
+
+    text-align:center;
+
+    color:#888;
+
+    margin-bottom:35px;
+}
+
+.invoice-section{
+
+    margin-bottom:25px;
+}
+
+.invoice-label{
+
+    color:#999;
+
+    font-size:14px;
+
+    margin-bottom:6px;
+}
+
+.invoice-value{
+
+    color:#333;
+
+    font-size:18px;
+
+    font-weight:600;
+}
+
+.total-payment{
+
+    background:#FFF7EA;
+
+    padding:18px;
+
+    border-radius:18px;
+
+    margin:25px 0;
+}
+
+.total-payment p{
+
+    color:#888;
+}
+
+.total-payment h3{
+
+    color:#930500;
+
+    font-size:28px;
+}
+
+.status-paid{
+
+    display:inline-block;
+
+    background:#EAF8EE;
+
+    color:#28a745;
+
+    padding:8px 15px;
+
+    border-radius:999px;
+
+    font-size:14px;
+
+    font-weight:700;
+}
+
+.back-home{
+
+    width:100%;
+
+    margin-top:25px;
+
+    border:none;
+
+    border-radius:18px;
+
+    background:#930500;
+
+    color:white;
+
+    padding:15px;
+
+    font-size:16px;
+
+    cursor:pointer;
+}
+
+#paymentMethod{
+
+    width:100%;
+
+    padding:15px;
+
+    margin-bottom:15px;
+
+    border:1px solid #DDD;
+
+    border-radius:15px;
+
+    font-family:'Nunito', sans-serif;
+
+    outline:none;
+}
+
+.summary-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-bottom:10px;
+
+    color:#555;
+}
+
+.total-row{
+
+    margin-top:10px;
+
+    color:#930500;
+
+    font-size:20px;
+
+    font-weight:bold;
+}

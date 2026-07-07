@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Nunito',sans-serif;
+}
+
+body{
+
+    background:#F8F5F2;
+
+}
+
+.container{
+
+    width:850px;
+
+    margin:60px auto;
+
+}
+
+.back-btn{
+
+    text-decoration:none;
+
+    color:#930500;
+
+    font-weight:bold;
+
+}
+
+.card{
+
+    margin-top:25px;
+
+    background:white;
+
+    border-radius:22px;
+
+    padding:35px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.header h1{
+
+    color:#930500;
+
+}
+
+.header p{
+
+    color:#888;
+
+    margin-top:5px;
+
+}
+
+.status{
+
+    background:#FFF4C9;
+
+    color:#A86A00;
+
+    padding:8px 20px;
+
+    border-radius:30px;
+
+    font-weight:bold;
+
+}
+
+hr{
+
+    margin:30px 0;
+
+    border:none;
+
+    border-top:1px solid #eee;
+
+}
+
+.product{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:20px;
+
+}
+
+.product p{
+
+    color:#666;
+
+    margin-top:6px;
+
+}
+
+.info{
+
+    margin-bottom:25px;
+
+}
+
+.info span{
+
+    display:block;
+
+    margin-top:8px;
+
+    color:#666;
+
+}
+
+.total{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.total h2{
+
+    color:#930500;
+
+}
